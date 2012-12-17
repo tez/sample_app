@@ -1,0 +1,1326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"root",
+				"root_url"
+			],
+			[
+				"fin",
+				"find_by_id"
+			],
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"grat",
+				"gravatar_for"
+			],
+			[
+				"micro",
+				"micropost"
+			],
+			[
+				"mico",
+				"microposts"
+			],
+			[
+				"sign",
+				"sign_in"
+			],
+			[
+				"mic",
+				"micropost"
+			],
+			[
+				"dests",
+				"dests	describe (type, string)"
+			],
+			[
+				"conten",
+				"content"
+			],
+			[
+				"des",
+				"desired"
+			],
+			[
+				"sou",
+				"should"
+			],
+			[
+				"desc",
+				"desc	describe (Controller)"
+			],
+			[
+				"access",
+				"accessible"
+			],
+			[
+				"respon",
+				"respond_to"
+			],
+			[
+				"shou",
+				"should"
+			],
+			[
+				"before",
+				"before"
+			],
+			[
+				"click",
+				"click_link"
+			],
+			[
+				"users",
+				"users_path"
+			],
+			[
+				"have",
+				"have_link"
+			],
+			[
+				"will",
+				"will_paginate"
+			],
+			[
+				"do",
+				"dob	Insert do |variable| … end"
+			],
+			[
+				"signed",
+				"signed_in_user"
+			],
+			[
+				"specif",
+				"specify"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"pas",
+				"password_field"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"sh",
+				"shared/error_messages"
+			],
+			[
+				"bere",
+				"before"
+			],
+			[
+				"remem",
+				"remember_token"
+			],
+			[
+				"authenti",
+				"authentiate"
+			],
+			[
+				"find",
+				"find_by_email"
+			],
+			[
+				"password",
+				"password_field"
+			],
+			[
+				"form",
+				"form_for"
+			],
+			[
+				"hav",
+				"have_selector"
+			],
+			[
+				"fla",
+				"flash	flash[…]"
+			],
+			[
+				"signup",
+				"signup_path"
+			],
+			[
+				"nam",
+				"name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/static_pages_controller.rb",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_user_info.html.erb",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_feed.html.erb",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_feed_item.html.erb",
+			"settings":
+			{
+				"buffer_size": 586,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<li>\n  <span class=\"content\"><%= micropost.content %></span>\n  <span class=\"timestamp\">\n    Posted <%= time_ago_in_words(micropost.created_at) %> ago.\n  </span>\n  <% if current_user?(micropost.user) %>\n    <%= link_to \"delete\", micropost, method: :delete,\n                                     data: { confirm: \"You sure?\" },\n                                     title: micropost.content\n     %>\n  <% end %>\n</li>",
+			"file": "app/views/microposts/_micropost.html.erb",
+			"file_size": 412,
+			"file_write_time": 1354023542000000,
+			"settings":
+			{
+				"buffer_size": 412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/shared/_micropost_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/microposts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 676,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/tasks/sample_data.rake",
+			"settings":
+			{
+				"buffer_size": 793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/users_helper.rb",
+			"settings":
+			{
+				"buffer_size": 368,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 5146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/requests/static_pages_spec.rb",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/requests/user_pages_spec.rb",
+			"settings":
+			{
+				"buffer_size": 4230,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/custom.css.scss",
+			"settings":
+			{
+				"buffer_size": 2864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Package Control 1.6.0 Changelog:\n  \n  Wow! It has been 9 months since the last stable release of Package Control.\n  Quite a lot has happened since then, including the release of Sublime Text 2\n  stable, and hundreds upon hundreds of new packages from the community!\n  \n  A quick thank you to Kevin Yank (@sentience) for recently volunteering to help\n  review packages for inclusion in the default channel, and ninj0x\n  (https://github.com/ninj0x) for rewriting the Package Control Community\n  Packages search functionality so it is nice and fast once again! The lists\n  below include specific thanks for code contributions.\n  \n  As Sublime Text has become increasingly more popular, and the number of\n  packages has increased so rapidly, the bandwidth requirements have also\n  significantly increased. This month the default channel will very likely serve\n  over 1TB of JSON data. If you feel so inclined, consider pitching in a small\n  amount to help cover the cost:\n  http://wbond.net/sublime_packages/package_control/say_thanks. A big thank you\n  to all of the users who have already contributed!\n  \n  \n  Enhancements\n  \n  \n   - Added full (custom) proxy authentication support for HTTPS connections\n  \n   - Added NTLM authentication for proxies on Windows\n  \n   - Proxy authentication information is now set via the new proxy_username and\n     proxy_password settings.\n  \n   - If the https_proxy setting it set to false, it will not inherit from the\n     http_proxy setting (thanks planardothum!)\n  \n   - The time of the last successful run is no longer stored in\n     Packages/User/Package Control.sublime-settings, but rather in\n     Packages/User/Package Control.last-run making it easier to ignore via git,\n     hg, etc. (thanks schlamar!)\n  \n   - Packages are now ignored during install and upgrade to help prevents errors\n     where Sublime Text tries to read a file as it is being extracted\n  \n   - Packages that include DLLs for Windows can now be upgraded. In-use\n     DLLs will be detected and the user prompted to restart.\n  \n   - Package version numbers may now include non-numeric components, and semantic\n     versioning (http://semver.org) is fully supported\n  \n   - JSON parsing messages are now printed to the console instead of being shown\n     in an error popup\n  \n   - Added support for changes to the BitBucket API\n  \n   - Added support for changes to GitHub URLs\n  \n   - Added the debug setting to help track down HTTP connection issues\n  \n   - All of the downloaders will now try to use HTTP compression\n  \n   - All of the downloaders will now follow redirects\n  \n   - Added new install_missing setting to control if Package Control should try\n     to install any packages that appear to be missing from the current machine.\n     This defaults to true, and is really only useful if you want to prevent\n     Package Control from connecting to the internet without explicitly asking\n     it to.\n  \n   - Added lots of code comments as a first step towards making contributions\n     by other developers easier\n  \n  \n  Bug Fixes\n  \n  \n   - Added support for the new preferences filename (thanks titoBouzout!)\n  \n   - If a package is missing from a machine, but not available for that\n     platform, it is no longer considered an error (thanks schlamar!)\n  \n   - Updated CA certs\n  \n   - Fixed handling of install and upgrade messages that contain non-ASCII\n     characters\n  \n   - Fixed a unicode error trying to load the CA cert bundle file on Windows when\n     the install path to Sublime Text contains non-ASCII characters\n  \n   - Better handling for edge case HTTP errors (thanks tgecho!)\n  \n   - Fixed a number of errors related to non-ASCII error messages being created\n     by the operating system (thanks quarnster!)\n  \n   - GitHub URLs will now automatically be trimmed of trailing .git suffixes\n  \n   - Badly formatted messages.json files will no longer break the install process\n\n\nRuby on Rails snippets:\n----------------------\n\n  This package replaces the default Sublime Rails snippets.\n  * Additional setup steps are required. *\n  Please visit https://github.com/tadast/sublime-rails-snippets#sublime-text-2-rails-snippets\n  for instructions\n",
+			"settings":
+			{
+				"buffer_size": 4265,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "spec/requests/micropost_pages_spec.rb",
+			"settings":
+			{
+				"buffer_size": 1073,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 375.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tez/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/tez/work/rails/sample_app/app/views/microposts/_microposts.html.erb",
+		"/Users/tez/work/rails/sample_app/config/application.rb",
+		"/Users/tez/work/rails/sample_app/lib/tasks/sample_data.rake",
+		"/Users/tez/work/rails/sample_app/authentication_pages_spec.rb",
+		"/Users/tez/work/rails/sample_app/app/views/users/eidt.html.erb",
+		"/Users/tez/work/rails/sample_app/spec/requests/user_pages_spec.rb",
+		"/Users/tez/work/rails/sample_app/spec/models/user_spec.rb",
+		"/Users/tez/work/rails/sample_app/app/views/shared/error_messages.html.erb",
+		"/Users/tez/work/rails/sample_app/app/views/users/new.html.erb",
+		"/Users/tez/work/rails/sample_app/config/environments/test.rb",
+		"/Users/tez/work/rails/sample_app/.rbenv-gemsets",
+		"/Users/tez/work/rails/sample_app/app/models/user.rb",
+		"/Users/tez/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/tez/work/rails/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/tez/work/rails/sample_app/app/views/layouts/application.html.erb",
+		"/Users/tez/Library/Application Support/Sublime Text 2/Packages/User/SublimeRailsNav.sublime-settings",
+		"/Users/tez/work/rails/sample_app/Rakefile",
+		"/Users/tez/.gemrc",
+		"/Users/tez/.zshenv"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    \n",
+			"micropost",
+			" $",
+			"li",
+			"list",
+			"Static pages Home page for signed-in users should render the user's feed",
+			"micropost",
+			"@object",
+			"user",
+			"micropost_pages_spec",
+			"for non-signed-in users",
+			",",
+			"\"foobar\"",
+			"end",
+			"default",
+			"current_user",
+			"have_selector",
+			"\n",
+			"have_selector",
+			"Users",
+			"authentiate",
+			"email",
+			"\n",
+			"          \n",
+			"SSL",
+			"password",
+			"text_field",
+			"email",
+			"name",
+			"  \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/static_pages_controller.rb",
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/shared/_user_info.html.erb",
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/shared/_feed.html.erb",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/shared/_feed_item.html.erb",
+					"settings":
+					{
+						"buffer_size": 586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								422,
+								422
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/microposts/_micropost.html.erb",
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/shared/_micropost_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								268,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/controllers/microposts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1149,
+								1149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/tasks/sample_data.rake",
+					"settings":
+					{
+						"buffer_size": 793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/helpers/users_helper.rb",
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "spec/models/user_spec.rb",
+					"settings":
+					{
+						"buffer_size": 5146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3943,
+								3943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1754.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "spec/requests/static_pages_spec.rb",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								897,
+								897
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "spec/requests/user_pages_spec.rb",
+					"settings":
+					{
+						"buffer_size": 4230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								525,
+								525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/assets/stylesheets/custom.css.scss",
+					"settings":
+					{
+						"buffer_size": 2864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2400,
+								2400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2159.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"settings":
+					{
+						"buffer_size": 4265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 128.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "spec/requests/micropost_pages_spec.rb",
+					"settings":
+					{
+						"buffer_size": 1073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1073
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/User/RSpec.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cus",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"mic",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"micro",
+				"spec/requests/micropost_pages_spec.rb"
+			],
+			[
+				"_feed",
+				"app/views/shared/_feed_item.html.erb"
+			],
+			[
+				"_mico",
+				"app/views/microposts/_micropost.html.erb"
+			],
+			[
+				"user_",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"feed",
+				"app/views/shared/_feed.html.erb"
+			],
+			[
+				"cust",
+				"app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"sa",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"home",
+				"app/views/static_pages/home.html.erb"
+			],
+			[
+				"static",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"user",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"stat",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"sati",
+				"spec/requests/static_pages_spec.rb"
+			],
+			[
+				"user_spe",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"mico",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"_mi",
+				"app/views/shared/_micropost_form.html.erb"
+			],
+			[
+				"_info",
+				"app/views/shared/_user_info.html.erb"
+			],
+			[
+				"mir",
+				"app/controllers/microposts_controller.rb"
+			],
+			[
+				"session",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"users",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"edit",
+				"app/views/users/edit.html.erb"
+			],
+			[
+				"sta",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"aut",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"_",
+				"app/views/users/_fields.html.erb"
+			],
+			[
+				"new",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"error",
+				"app/views/shared/_error_messages.html.erb"
+			],
+			[
+				"stati",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"stai",
+				"app/controllers/static_pages_controller.rb"
+			],
+			[
+				"micropost",
+				"spec/requests/micropost_pages_spec.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				"rspec",
+				".rspec"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"appli",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"sessions",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"sam",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"_micro",
+				"app/views/microposts/_micropost.html.erb"
+			],
+			[
+				"show",
+				"app/views/users/show.html.erb"
+			],
+			[
+				"mi",
+				"spec/models/micropost_spec.rb"
+			],
+			[
+				"fac",
+				"spec/factories.rb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"crete",
+				"db/migrate/20121120090106_create_microposts.rb"
+			],
+			[
+				"helper",
+				"spec/spec_helper.rb"
+			],
+			[
+				"au",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"help",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"_user",
+				"app/views/users/_user.html.erb"
+			],
+			[
+				"fa",
+				"spec/factories.rb"
+			],
+			[
+				"admin",
+				"db/migrate/20121115141816_add_admin_to_users.rb"
+			],
+			[
+				"user_con",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"inde",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"factor",
+				"spec/factories.rb"
+			],
+			[
+				"he",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"ses",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"auth",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"user_he",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"authe",
+				"spec/requests/authentication_pages_spec.rb"
+			],
+			[
+				"uti",
+				"spec/support/utilities.rb"
+			],
+			[
+				"auto",
+				"features/step_definitions/authentication_steps.rb"
+			],
+			[
+				"eidt",
+				"/Users/tez/work/rails/sample_app/app/views/users/eidt.html.erb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"utili",
+				"spec/support/utilities.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"se",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"n",
+				"app/views/sessions/new.html.erb"
+			],
+			[
+				"u",
+				"spec/models/user_spec.rb"
+			],
+			[
+				"userco",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"applia",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"add",
+				"db/migrate/20121104200957_add_remember_token_to_users.rb"
+			],
+			[
+				"sess",
+				"app/controllers/sessions_controller.rb"
+			],
+			[
+				"user_page",
+				"spec/requests/user_pages_spec.rb"
+			],
+			[
+				"en",
+				"config/locales/en.yml"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"gur",
+				"Guardfile"
+			],
+			[
+				"layout",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"usr",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"user_hel",
+				"app/helpers/users_helper.rb"
+			],
+			[
+				"test",
+				"config/environments/test.rb"
+			],
+			[
+				"appi",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
